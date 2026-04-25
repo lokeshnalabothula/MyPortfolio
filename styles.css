@@ -1,0 +1,57 @@
+.orbit-container {
+    postion : relative;
+    width : 420px;
+    height : 420px;
+}
+
+.orbit-ring{
+    position : absolute;
+    top : 50%;
+    left : 50%;
+    width : 100%;
+    height : 100%;
+    border-radius : 50%;
+    border : 1px solid #00ffe0;
+    transform : translate(-50%,-50%);
+}
+
+
+
+
+
+
+.avatar-ring{
+    width : 180px;
+    height : 180px;
+    border-radius : 50%;
+    border : 3px solid #00ffe0 ;
+    padding : 5px;
+    margin : 0 auto 24px;
+    flex-shrink :0;
+    overflow : hidden;
+}
+
+.avatar-ring img{
+    width : 100%;
+    height : 100%;
+    border-radius : 50%;
+    object-fit : cover;
+    display : block;
+    object-position: center top;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  background: #0a0a12;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #00ffe0;
+  margin: 0;
+}
